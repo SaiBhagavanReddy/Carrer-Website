@@ -1,0 +1,27 @@
+{
+  "AdminUser": [
+    {
+      "Admin": "sai",
+      "Password": "sai",
+      "id": 2
+    },
+    {
+      "Admin": "sad",
+      "Password": "sad",
+      "date": "2026-10-08T17:37:59.708Z",
+      "id": 3
+    },
+    {
+      "Admin": "jai",
+      "Password": "jai",
+      "date": "2026-10-11T15:42:52.152Z",
+      "id": 4
+    },
+    {
+      "Admin": "ajay",
+      "Password": "ajay",
+      "date": "2026-10-25T13:12:33.305Z",
+      "id": 5
+    }
+  ]
+}

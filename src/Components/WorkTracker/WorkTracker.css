@@ -1,0 +1,156 @@
+.TrackerMain {
+  position: relative;
+  left: 30%;
+  /* transform: translate(-50%, -50%); */
+  width: 600px;
+  min-height: 600px;
+}
+body {
+  overflow: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  text-align: center;
+  padding: 40px;
+}
+.Header > h2 {
+  font-weight: bolder;
+  color: antiquewhite;
+}
+.StatusTracker {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 7fr));
+  gap: 20px;
+}
+.statuscolumn {
+  background-color: beige;
+  width: max-content;
+  height: fit-content;
+  text-align: center;
+  padding: 10px;
+}
+.UserData {
+  background-color: beige;
+  margin-top: 50px;
+  width: -webkit-fill-available;
+  height: auto;
+  padding: 20px;
+}
+.Row1,
+.Row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.TrackerLabel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.TrackerLabel > input[type="text"],
+.TrackerLabel > input[type="date"],
+.TrackerLabel > select {
+  width: 270px;
+  height: 25px;
+}
+.TrackerLabel > textarea,
+.add-btn button {
+  width: 565px;
+  height: 45px;
+}
+.EnteringDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.DetailsHeader {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn button {
+  background-color: cornflowerblue;
+}
+.ForEmptyTask {
+  width: 565px;
+  height: 45px;
+  background-color: beige;
+  margin-top: 50px;
+  width: -webkit-fill-available;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+.ForHavingDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  /* background-color: red; */
+  gap: 34px;
+  /* width: 200px; */
+  height: 46px;
+  padding-top: 15px;
+}
+.Content-inside {
+  background-color: antiquewhite;
+  height: auto;
+  border-radius: 10px;
+  padding: 5px;
+  width:auto;
+}
+.TitleWithPriority {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.TitleWithPriority p {
+  width: 75px;
+  height: 25px;
+  background-color: brown;
+  /* text-align: center; */
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.action-btn select {
+  background: snow;
+  border: none;
+}
+.btn-del-edit {
+  display: inline-flex;
+  gap: 5px;
+}
+.btn-del-edit :first-child {
+  width: 60px;
+  height: 30px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.btn-del-edit :nth-of-type(2),.btn-del-edit :nth-of-type(3) {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.Subject-with-date
+{
+ padding-left: 10px;
+}

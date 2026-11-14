@@ -1,0 +1,128 @@
+.helpSupportMain
+{
+    position: relative;
+ 
+  
+}
+.header
+{
+       position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 155px;
+    flex-direction: column;
+}
+.help-menu-details
+{
+    display: grid;
+        grid-template-columns: repeat(4, 25fr);
+    gap: 70px;
+     padding-left: 20px;
+
+}
+.card
+{
+   background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card > button{
+ width: 120px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+}
+.inputData
+{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.RaiseTicket , .FrequentlyAskedQuestions{
+background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 25px;
+    min-height: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    min-height: 450px;
+        overflow: hidden;
+    position: relative;
+}
+.Detailsforticket
+{
+    position:absolute;
+}
+.userenteringdata
+{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+}
+.userenteringdata ,.userenteringdata> input[type='text'],.userenteringdata> input[type='email'],.userenteringdata>select,textarea
+{
+    width: 240px;
+        width: 460px;
+    height: 20px;
+
+}
+.submit-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn > button{
+background-color: blue;
+    width: 160px;
+    height: 36px;
+    color: white;
+    border-radius: 11px;
+}
+.QuestionData
+{
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.listofqueries
+{
+       display: flex;
+    align-items: center;
+    justify-content: center;
+   
+        border: #fff 13px solid;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+        flex-direction: column;
+}
+.questionwithBtn
+{
+    display: flex;
+    flex-direction: row;
+    gap: 362px;
+    /* flex-grow: 9; */
+    position: relative;
+    padding: 0px;
+    align-items: center;
+}
+.showAnswer > button{
+    border: none;
+    background-color: unset;
+}
+.answer
+{
+    background-color: aquamarine;
+}
+.Appblock
+{}

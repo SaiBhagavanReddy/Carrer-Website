@@ -1,0 +1,102 @@
+.Form-Data
+{
+    display:flex;
+     flex-direction: column;
+     justify-content:center;
+    align-items: center;
+    
+}
+form{
+    background-color: aliceblue;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    top: 100px;
+    border-radius: 40px;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+}
+.NavLinks
+{
+  display: flex;
+  align-items: center;   /* vertically center items */
+  justify-content: center; /* optional */
+  height: 80px;          /* 👈 increase this */
+  background-color: #fff3e0;
+  gap: 30pxs;
+}
+#Note_data
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:14px;
+
+}
+.Main
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.pop-up
+{
+        background-color: antiquewhite;
+        width: 400px;
+        height: 400px;
+        margin-left: 440px;
+
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+    
+}
+pre
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+}
+.move
+{
+    animation: Move  1s alternate ease forwards;
+    
+      
+
+}
+@keyframes Move{
+    0%{
+        opacity: 0;
+        transform:translateY(0px);
+    }
+    50%
+    {
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0.8;
+        transform: translateY(-100px);
+    }
+
+}
+.closed
+{
+    display: none;
+}

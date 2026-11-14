@@ -1,0 +1,100 @@
+.MainContactUs
+{
+    margin: 45px;
+    position: relative;
+}
+.Header
+{
+    padding:25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 110%;
+}
+.contact-des ,.contact-des1 , .contact-des2 , .contact-des3
+{
+    
+      width:250px;
+    min-height:180px;
+    background:#fff;
+    border-radius:18px;
+    padding:24px;
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    border:1px solid #f1f1f1;
+    transition:.3s ease;
+}
+.Contact-us
+{
+    display: flex;
+    gap: 20px;
+}
+.card-content,.card-content2 ,.card-content3 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Message
+{     
+    position: absolute;
+    left: 35%;
+    top: 103%;
+}
+
+.Message {
+    width: auto;
+    min-height: 400px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f1f1f1;
+    transition: .3s ease;
+    padding-top: 20px;
+    flex-direction: column;
+    
+}
+
+.UserDetails{
+        display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-send-message
+{
+    position: relative;
+}
+.btn-send-message > button
+{
+    width: 175px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* margin: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.sendSymbol
+{
+        position: absolute;
+    top: 14px;
+    left: 10px;
+}
+input[type='text'] ,input[type='email'],input[type='text'],input[type='textarea']
+{
+    border-radius: 5px;
+}   

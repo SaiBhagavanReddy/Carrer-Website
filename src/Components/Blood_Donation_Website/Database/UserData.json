@@ -1,0 +1,43 @@
+{
+  "RegisterUser": [
+    {
+      "email": "Jsaibhagavanreddy@gmail.com",
+      "password": "sad",
+      "cpassword": "sad",
+      "bloodGroup": "O+",
+      "id": 1,
+      "DateofLogin": "2026-10-25T13:42:07.299Z"
+    },
+    {
+      "email": "jai@gmail.com",
+      "password": "jai",
+      "cpassword": "jai",
+      "bloodGroup": "O+",
+      "id": 10,
+      "DateofLogin": "2026-10-12T14:37:17.825Z"
+    },
+    {
+      "email": "nani@gmail.com",
+      "password": "nani",
+      "cpassword": "nani",
+      "bloodGroup": "O+",
+      "id": 11,
+      "DateofLogin": "2026-10-12T14:52:29.153Z"
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "kiran",
+      "cpassword": "kiran",
+      "bloodGroup": "AB-",
+      "id": 12,
+      "DateofLogin": "2026-10-13T11:21:34.979Z"
+    },
+    {
+      "email": "mani@gmail.com",
+      "password": "mani",
+      "cpassword": "mani",
+      "bloodGroup": "AB+",
+      "id": 13
+    }
+  ]
+}

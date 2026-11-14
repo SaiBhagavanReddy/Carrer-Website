@@ -1,0 +1,301 @@
+.HomeControlPageMain {
+    position: relative;
+    inset: 0px;
+    height: 100vh;
+  
+}
+.Nav_with_header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+.Active-btn > span {
+  background-color: antiquewhite;
+  border-radius: 30px;
+  width: 109px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  padding: 6px 16px;
+}
+.HomeControlBody {
+  width: 100vw;
+  height: auto;
+      min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)}
+    
+.app-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 15px;
+}
+.nav-btns > button {
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: azure;
+}
+.nav-btns > button.active {
+  background-color: black;
+  color: white;
+}
+
+.homeApp {
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(314px, 1fr));  gap: 70px;
+  padding-left: 110px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App-Main
+{
+  
+max-width: 1200px;
+    margin: 0 auto;
+
+}
+.Appblock {
+background-color: brown;
+    width: 330px;
+    height: auto;
+    padding: 20px;
+        border-radius: 20px;
+  }
+.power-btn button {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: darkgray;
+      margin-top: 15px;
+}
+.Icon
+{
+width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.IconColorAdd
+{
+     background-color:brown;
+}
+
+
+
+
+.ScheduleMain
+{
+    position: relative;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ScheduleBlock
+{
+    max-width: 730px;
+    width: 695px;
+    min-height: 290px;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    height: auto;
+    min-height: 150px;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.HeaderWithBtn
+{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+.btn-Add-Schedule >button{
+   width: 135px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
+
+
+.scheduleDetails{
+      padding: 15px;
+    background: beige;
+    width: 630px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.Device-label
+{
+  display:flex;
+     flex-direction: column;
+}
+
+.Device-label select,.Device-label input[type='time'] {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.Device-rows{
+      display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.action-btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 7px;
+
+}
+.action-btn > button{
+  border-radius: 7px;
+    width: 310px;
+    height: 30px;
+}
+.action-btn  :nth-child(1)
+{
+   background-color: blue;
+   color: white;
+}
+.ScheduleInfo
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.scheduledInfo
+{
+  background-color: aquamarine;
+      margin: 15px;
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 415px;
+}
+.scheduledInfoOff
+{
+    background-color: aquamarine;
+      margin: 15px;
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 415px;
+    opacity: 0.6;
+}
+
+.btns-scheduledInfo{
+      display: inline-flex;
+    gap: 10px;
+}
+.btns-scheduledInfo button{
+  background: none;
+  border: none;
+}
+.btns-scheduledInfo >button :hover
+{ 
+    background-color:bisque;
+}
+.btns-scheduledInfo >button :hover
+{
+  cursor:pointer;
+}
+.scheduleDetailsMain{
+      display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.notification-panel
+{    max-width: 730px;
+    width: 695px;
+    min-height: 290px;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    height: auto;
+    min-height: 150px;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+.notification-panel-Main{
+      position: relative;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-panel-Header
+{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.Notification-with-icon{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Notification-btn-deletion button{
+  width: 120px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6b6b;
+    border-radius: 8px;
+    color: white;
+    gap: 8px;
+  }
+
+  .notification-data{
+         background: beige;
+        height: 50px;
+    margin: 10px;
+  }
+  .Notifications-with-data{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+.Notifications-with-date
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.Notifications-with-emptyData
+{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

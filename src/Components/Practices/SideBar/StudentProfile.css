@@ -1,0 +1,166 @@
+.StudentProfileMain{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin:30px;
+}
+.Profileheader
+{
+     display: inline-flex;
+     flex-direction: column;
+
+
+}
+.profileData{
+    margin-top:80px;
+    margin-left:30px;
+
+    border:13px solid white;
+    border-radius:10px;
+    box-shadow:0 0 12px rgba(0,0,0,.2);
+
+    width:95%;
+    min-height:320px;
+}
+.details {
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr 1fr 160px;
+    gap: 30px;
+    padding: 20px;
+}
+.details.edit-mode {
+    grid-template-columns: 180px 1fr 1fr 1fr;
+}
+    .detailsAlign
+    {
+            height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .selectFile
+
+    {
+           position: absolute;
+   top: 133px;
+    left:100px;
+    z-index: 999;
+    }
+    .selectFile > input[type='file']
+    {
+        opacity: 0;
+        inset: 0;
+    }
+    .HideInput
+    {
+            position: absolute;
+    }
+   .preview-image img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+
+   }
+    .camera-icon
+    {
+        min-width: 20px;
+    background-color: blue;
+    min-height: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 50%;
+    }
+    .edit-btn > button
+    {
+        min-width: 120px;
+        min-height: 30px;
+        background-color: blue;
+        color: white;
+            border-radius: 10px;
+    }
+    .EditData
+    {
+            border: unset;
+  outline: none;
+    }
+/* input[type="radio"] {
+  display: none;
+} */
+input[type="radio"]:checked + span {
+  color: white;
+  background: #007bff;
+}
+.Profile{
+    position:relative;
+    width:160px;
+}
+
+.selectFile{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+.QrCode
+{      gap: 20px;
+    border: 0px solid whitesmoke;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+
+}
+.QrCode-header span{
+    font-size: initial;
+
+}
+.Id_Download > :hover
+{
+    cursor: pointer;
+}
+
+.Id_Download { border: 2px blue solid;
+    width: 133px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.Academic-details 
+{
+           display: grid;
+    grid-template-columns: repeat(4, 3fr);
+}
+.Academic-dataOne,.Academic-dataTwo,.Academic-dataThree,.Academic-dataFour{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 0px solid whitesmoke;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    height: 145px;
+    gap: 150px;
+}
+.Icon1,.Icon2,.Icon3,.Icon4{
+    color: red;
+    background-color: green;
+    /* border: 2px green solid; */
+    padding: 10px;
+    border-radius: 17px;
+}
+    
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+   

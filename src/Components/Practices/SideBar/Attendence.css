@@ -1,0 +1,64 @@
+.Attendence-main
+{
+position: relative;
+    padding: 60px;
+}
+
+.btn-section{
+        display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.btn-section > select ,.btn-section > button{
+     width: 144px;
+    height: 40px;
+    border-radius: 8px;
+}
+.btn-with-icon
+{
+        position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Attendence-Header{
+        display: flex;
+    /* justify-content: center; */
+    gap: 68%;
+}
+.btn-section :nth-child(2)
+{
+
+     border-color: forestgreen;
+     color: forestgreen;
+}
+.attendanceData
+{
+      border: 0px solid whitesmoke;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    padding: 40px;
+}
+
+
+.tablethead,.tablerow {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+   padding-left: 200px;
+}
+.back-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.back-btn > button
+{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}

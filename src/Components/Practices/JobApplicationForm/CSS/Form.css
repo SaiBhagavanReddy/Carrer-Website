@@ -1,0 +1,146 @@
+.HeaderSection{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        width:auto;
+        height: auto;
+}
+.Main
+{
+    position: relative;
+    top:120px;
+}
+.Head {
+    width: 80%;
+    max-width: 530px;
+    min-width: 400px;
+    height: auto;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+.Full_name 
+{
+    display: flex;
+    gap: 20px;
+}
+
+.Date_of_Birth > select , .position-apply > select
+{
+    width: 165px;
+    height: 30px;
+}
+
+.Date_of_Birth ,.position-apply{
+    display: flex;
+    gap:24px;
+    
+}
+.Full_name  > input  
+{
+    height: 30px;
+
+}
+.sub-names
+{
+    display: flex;
+    gap: 114px;
+}
+
+
+.dob_substitles{
+        display: flex;
+    gap: 157px;
+}
+.address > input {
+    width: 530px;
+    height: 30px;
+}
+.form-group  {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+.email-phone ,.job-details{
+          display: flex;
+    gap: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.form-group > input , .linkden>input , .position-apply > select
+{
+    width: 260px;
+    height: 30px;
+}
+.position-apply
+{
+    display: flex;
+    gap:10px;
+}
+.Resume
+{
+        border: 2px dashed #bdbdbd;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    background: #fafafa;
+    cursor: pointer;
+    transition: .3s;
+    position: relative; 
+}
+.Resume input {
+    display: none;
+}
+
+.cover-letter > textarea
+{
+       border: 2px dashed #bdbdbd;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    background: #fafafa;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+        width: 446px;
+    height: 80px;                     
+}
+.ApplyButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ApplyButton > button{
+        width: 95px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+.Error-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.error-data{
+         /* max-width: 250px; */
+    background-color: red;
+    /* height: 119%; */
+    width: 460px;
+    height: 300px;   
+}
+.description
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 107px;
+}
